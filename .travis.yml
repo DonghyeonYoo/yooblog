@@ -6,7 +6,7 @@ python:
 install: 
     - pip install -r requirements/development.txt
 script:
-    -pep8
+    - pep8
 
 notifications:
   slack: jkoonsslack:DY2xYoKFjaxrmbwBjIF1hCYZ    
