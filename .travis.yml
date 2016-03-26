@@ -6,5 +6,7 @@ python:
 install: 
     - pip install -r requirements/development.txt
 
+script:
+       
 notifications:
   slack: jkoonsslack:DY2xYoKFjaxrmbwBjIF1hCYZ    
