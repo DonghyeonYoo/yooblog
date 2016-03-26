@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "-------------------------------------------"
+echo "start checking python style guide with pep8"
+echo "-------------------------------------------"
+pep8
