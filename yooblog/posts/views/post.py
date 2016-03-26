@@ -10,8 +10,9 @@ def posts(request):
             'posts': Post.objects.all()
         }
 
-    return HttpResponse(
-        template.render(
+        return HttpResponse(
+            template.render(
                 context,
                 request,
+            ),
         )

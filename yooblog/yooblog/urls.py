@@ -19,6 +19,6 @@ from posts.views import posts
 
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+	url(r'^admin/', admin.site.urls),
 	url(r'^posts/$', posts),
 ]

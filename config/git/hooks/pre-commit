@@ -3,4 +3,4 @@
 echo "-------------------------------------------"
 echo "start checking python style guide with pep8"
 echo "-------------------------------------------"
-pep8
+#pep8
